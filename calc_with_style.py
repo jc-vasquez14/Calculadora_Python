@@ -97,7 +97,6 @@ boton_punto.grid(row=5, column=1, padx=5, pady=5, sticky="nsew")
 boton_igual.grid(row=5, column=2, padx=5, pady=5, sticky="nsew")
 boton_rest.grid(row=5, column=3, padx=5, pady=5, sticky="nsew")
 
-# Ajustar el tamaño de las columnas y filas para que los botones ocupen el espacio disponible
 ventana.grid_columnconfigure(0, weight=1)
 ventana.grid_columnconfigure(1, weight=1)
 ventana.grid_columnconfigure(2, weight=1)
